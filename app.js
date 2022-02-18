@@ -36,3 +36,16 @@ console.log(date)
 
 const year = document.getElementById('year');
 year.innerText = `${date}-${date+1}`
+
+
+const servicesDiv = document.getElementById('servicesDiv');
+const cross = document.getElementById('cross');
+const services = document.getElementById('services');
+
+services.addEventListener('click',()=>{
+    servicesDiv.style.display= 'block';
+})
+
+cross.addEventListener('click',()=>{
+    servicesDiv.style.display= 'none';
+})

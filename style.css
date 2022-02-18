@@ -1,392 +1,427 @@
 .body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navBar {
-    position: fixed;
-    height: 70px;
-    box-shadow: 1px 8px 10px #8888881c;
-    width: 100%;
-    z-index: 500;
-    background-color: #fff;
-    top: 0px;
+  position: fixed;
+  height: 70px;
+  box-shadow: 1px 8px 10px #8888881c;
+  width: 100%;
+  z-index: 500;
+  background-color: #fff;
+  top: 0px;
 }
 
 .logo {
-    width: 200px;
-    position: absolute;
-    top: -62px;
-    left: 120px;
+  width: 200px;
+  position: absolute;
+  top: -62px;
+  left: 120px;
 }
 
 .nav-links {
-    position: relative;
-    left: 50%;
-    margin: 20px;
-    top: 20px;
-    z-index: 200;
+  position: relative;
+  left: 50%;
+  margin: 20px;
+  top: 20px;
+  z-index: 200;
 }
 
 .topSlider {
-    position: relative;
-    margin-top: 72px;
+  position: relative;
+  margin-top: 72px;
 }
 
 .parallex {
-    height: 40vh;
-    width: 100%;
-    /* background-image: url("images/parrlax.jpg"); */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+  height: 40vh;
+  width: 100%;
+  /* background-image: url("images/parrlax.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .welcomeHeading {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .welcomePara {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    line-height: 1.8;
-    margin-bottom: -10px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: -10px;
 }
 
 .servicesHeading {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: -50px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: -50px;
 }
 
 .servicesSubHeading {
-    text-align: center;
-    font-size: 22px;
-    font-weight: normal;
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
 }
 
 .servicesSubPara {
-    text-align: center;
-    font-size: 18px;
-    font-weight: normal;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .carousel {
-    background: rgba(12, 104, 209, 0.041);
-    padding: 10px;
+  background: rgba(12, 104, 209, 0.041);
+  padding: 10px;
 }
 
 .carousel-cell {
-    width: 28%;
-    height: 200px;
-    margin: 0px 50px;
-    background: rgba(136, 204, 168, 0);
-    border-radius: 5px;
-    counter-increment: carousel-cell;
+  width: 28%;
+  height: 200px;
+  margin: 0px 50px;
+  background: rgba(136, 204, 168, 0);
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }
 
 .carousel-cell.is-selected {}
 
 .carousel-cell {
-    width: 200px;
+  width: 200px;
 }
 
 .carousel2Image {
-    width: 200px;
-    border-radius: 20px;
-    border: 10px solid white;
+  width: 200px;
+  border-radius: 20px;
+  border: 10px solid white;
 }
 
 .testimonialDiv {
-    max-width: 100%;
-    height: auto;
-    overflow-x: auto;
-    white-space: nowrap;
+  max-width: 100%;
+  height: auto;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .testimonialHeading {
-    text-align: center;
-    margin-top: 90px;
-    margin-bottom: 40px;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
 }
 
 .uniqeTestimonial {
-    height: 200px;
-    width: 200px;
-    background-color: red;
-    display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
 }
 
 .testimonialImage {
-    width: 80px;
-    text-align: center;
-    position: relative;
-    top: 5px;
+  width: 80px;
+  text-align: center;
+  position: relative;
+  top: 5px;
 }
 
 .testimonialname {
-    font-size: 20px;
-    margin-top: 10px;
-    font-weight: normal;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: normal;
 }
 
 .testimonialPara {
-    font-weight: 100;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 10px;
+  font-weight: 100;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .comment {
-    width: 100px;
+  width: 100px;
 }
 
 .carousel-cell1 {
-    /* width: 250px;
-    height: 350px;
-    text-align: center;
-    padding: 30px 0px 0px 0px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
-    margin: 0px 20px; */
-    width: 250px;
+  /* width: 250px;
+  height: 350px;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
+  margin: 0px 20px; */
+  width: 250px;
 }
 
 .carouselcolor {
-    padding: 20px 0px;
-    background-color: rgba(12, 104, 209, 0.041);
+  padding: 20px 0px;
+  background-color: rgba(12, 104, 209, 0.041);
 }
 
 .gallary {
-    height: 500px;
-    border: 1px solid grey;
-    width: 98%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 60px;
+  height: 500px;
+  border: 1px solid grey;
+  width: 98%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .gallaryHeading {
-    position: relative;
-    top: 40%;
-    text-align: center;
+  position: relative;
+  top: 40%;
+  text-align: center;
 }
 
 .footer {
-    height: 200px;
-    /* border: 1px solid black; */
-    color: white;
-    background-color: rgb(54, 54, 54);
-    padding: 10px;
+  height: 200px;
+  /* border: 1px solid black; */
+  color: white;
+  background-color: rgb(54, 54, 54);
+  padding: 10px;
 }
 
 .navBtn {
-    display: none;
+  display: none;
 }
 
 #phoneMenu {
-    height: 200px;
-    background-color: rgba(197, 197, 197, 0.959);
-    width: 100%;
-    position: fixed;
-    top: 70px;
-    height: 100vh;
-    margin: auto;
-    left: 0px;
-    z-index: 100;
-    display: none;
-    text-align: center;
+  height: 200px;
+  background-color: rgba(197, 197, 197, 0.959);
+  width: 100%;
+  position: fixed;
+  top: 70px;
+  height: 100vh;
+  margin: auto;
+  left: 0px;
+  z-index: 100;
+  display: none;
+  text-align: center;
 }
 
 .phoneNavLink {
-    font-size: 30px;
-    position: relative;
-    top: 70px;
-    font-weight: 400;
+  font-size: 30px;
+  position: relative;
+  top: 70px;
+  font-weight: 400;
 }
 
 .Pabout {
-    top: 100px;
+  top: 100px;
 }
 
 .Phow {
-    top: 115px;
+  top: 115px;
 }
 
 .Pservices {
-    top: 135px;
+  top: 135px;
 }
 
 .Pcontact {
-    top: 150px;
+  top: 150px;
 }
 
 .orderBtn {
-    position: fixed;
-    bottom: 22px;
-    background-color: #83186c;
-    color: white;
+  position: fixed;
+  bottom: 22px;
+  background-color: #83186c;
+  color: white;
 }
 
 .footerHeadings {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .copyright {
-    height: auto;
-    background-color: rgba(255, 0, 191, 0.267);
-    text-align: center;
-    padding: 5px;
+  height: auto;
+  background-color: rgba(255, 0, 191, 0.267);
+  text-align: center;
+  padding: 5px;
 }
 
 .copyrighttext {
-    display: inline-block;
-    margin-bottom: -19px;
+  display: inline-block;
+  margin-bottom: -19px;
 }
 
 .year {
-    display: inline-block;
-    position: relative;
-    margin-bottom: -30px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: -30px;
 }
 
 .babyImages {}
 
 .aboutHeading {}
 
+#servicesDiv{
+  position: absolute;
+  height:60%;
+  top: 10%;
+  left: 13.5%;
+  background-color:#83186cf5;
+  width: 70%;
+  margin: auto;
+  z-index: 100;
+  padding:10px;
+  display: none;
+}
+
+.servicesMenuLinks{
+  color: white;
+  font-size: 20px;
+  margin-top:30px;
+  position: relative;
+  /* top: 15px; */
+}
+
+#cross{
+  color: white;
+  margin-bottom: -20px;
+  position: absolute;
+  right: 20px;
+  top:12px;
+  font-size: 20px;
+}
+
+.babyHandDiv{
+  text-align: center;
+  padding:10px;
+}
+
 @media(max-width:998px) {
-    .nav-links {
-        display: none;
-    }
-    .logo {
-        width: 200px;
-        position: absolute;
-        top: -62px;
-        left: 25%;
-    }
-    .topSlider {
-        position: relative;
-        margin-top: 72px;
-        width: 105%;
-        margin-left: -12px;
-        margin-right: -20px;
-    }
-    .welcomeHeading {
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        font-size: 25px;
-    }
-    .welcomePara {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        line-height: 1.8;
-        margin-bottom: -10px;
-        font-weight: 500;
-        font-size: 18px;
-    }
-    .servicesHeading {
-        text-align: center;
-        margin-bottom: 10px;
-        margin-top: 30px;
-        font-size: 25px;
-        color: rgb(87, 44, 65);
-        ;
-    }
-    .parallex {
-        height: 60vh;
-        width: 100%;
-        background-image: url("images/parllax.png");
-        background-blend-mode: hue;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
-    .servicesSubHeading {
-        text-align: center;
-        font-size: 19px;
-        font-weight: normal;
-        color: rgb(65, 31, 48);
-    }
-    .servicesSubPara {
-        text-align: center;
-        font-size: 16px;
-        font-weight: normal;
-        width: 70%;
-        margin: auto;
-        margin-bottom: 30px;
-        color: grey;
-    }
-    .carousel-cell {
-        width: 40%;
-        height: 200px;
-        margin: 0px 50px;
-        background: rgba(136, 204, 168, 0);
-        border-radius: 5px;
-        counter-increment: carousel-cell;
-    }
-    .carousel-cell1 {
-        width: 250px;
-        height: 350px;
-        text-align: center;
-        padding: 30px 0px 0px 0px;
-        border: 1px solid grey;
-        border-radius: 20px;
-        background-color: white;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
-        margin: 0px 30px;
-    }
-    .testimonialHeading {
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 40px;
-    }
-    .footer {
-        height: auto;
-        /* border: 1px solid black; */
-        padding: 20px 10px;
-    }
-    .navBtn {
-        display: block;
-        position: absolute;
-        right: 20px;
-        top: 14px;
-    }
-    .line {
-        border: 1px solid;
-        width: 30px;
-        margin: 10px 0px;
-    }
-    .babyImages {
-        width: 70%;
-        border-radius: 10px;
-        margin-bottom: 30px;
-    }
-    .aboutHeading {
-        font-size: 45x;
-        text-align: center;
-        font-weight: 400;
-        color: #83186c;
-    }
-    .aboutDiv {
-        text-align: center;
-        width: 90%;
-        margin: auto;
-    }
-    .aboutWelcome {
-        font-weight: 400;
-        color: #494949;
-    }
+  .nav-links {
+      display: none;
+  }
+  .logo {
+      width: 200px;
+      position: absolute;
+      top: -62px;
+      left: 25%;
+  }
+  .topSlider {
+      position: relative;
+      margin-top: 72px;
+      width: 105%;
+      margin-left: -12px;
+      margin-right: -20px;
+  }
+  .welcomeHeading {
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      font-size: 25px;
+  }
+  .welcomePara {
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      line-height: 1.8;
+      margin-bottom: -10px;
+      font-weight: 500;
+      font-size: 18px;
+  }
+  .servicesHeading {
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      font-size: 25px;
+      color: rgb(87, 44, 65);
+      ;
+  }
+  .parallex {
+      height: 60vh;
+      width: 100%;
+      background-image: url("images/parllax.png");
+      background-blend-mode: hue;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 50px;
+  }
+  .servicesSubHeading {
+      text-align: center;
+      font-size: 19px;
+      font-weight: normal;
+      color: rgb(65, 31, 48);
+  }
+  .servicesSubPara {
+      text-align: center;
+      font-size: 16px;
+      font-weight: normal;
+      width: 70%;
+      margin: auto;
+      margin-bottom: 30px;
+      color: grey;
+  }
+  .carousel-cell {
+      width: 40%;
+      height: 200px;
+      margin: 0px 50px;
+      background: rgba(136, 204, 168, 0);
+      border-radius: 5px;
+      counter-increment: carousel-cell;
+  }
+  .carousel-cell1 {
+      width: 250px;
+      height: 350px;
+      text-align: center;
+      padding: 30px 0px 0px 0px;
+      border: 1px solid grey;
+      border-radius: 20px;
+      background-color: white;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
+      margin: 0px 30px;
+  }
+  .testimonialHeading {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+  }
+  .footer {
+      height: auto;
+      /* border: 1px solid black; */
+      padding: 20px 10px;
+  }
+  .navBtn {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 14px;
+  }
+  .line {
+      border: 1px solid;
+      width: 30px;
+      margin: 10px 0px;
+  }
+  .babyImages {
+      width: 70%;
+      border-radius: 10px;
+      margin-bottom: 30px;
+  }
+  .aboutHeading {
+      font-size: 45x;
+      text-align: center;
+      font-weight: 400;
+      color: #83186c;
+  }
+  .aboutDiv {
+      text-align: center;
+      width: 90%;
+      margin: auto;
+  }
+  .aboutWelcome {
+      font-weight: 400;
+      color: #494949;
+  }
 }
