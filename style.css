@@ -1,6 +1,7 @@
-.body {
+body {
     margin: 0;
     padding: 0;
+    background-color: red;
 }
 
 .navBar {
@@ -301,7 +302,7 @@
     position: fixed;
     z-index: 600;
     bottom: 30px;
-    width: 15%;
+    width: 20%;
     right: 10px;
     /* box-shadow: 2px 2px 10px grey; */
     border-radius: 200px;
@@ -311,8 +312,8 @@
 #chatdiv {
     position: fixed;
     z-index: 599;
-    bottom: 45px;
-    right: 48px;
+    bottom: 49px;
+    right: 68px;
     background-color: rgba(131, 10, 100, 0.938);
     visibility: hidden;
     /* transition-delay: 250ms;
@@ -323,6 +324,7 @@
     padding-left: 8px;
     color: white;
     box-shadow: 2px 2px 10px rgb(85, 85, 85);
+    font-size: 20px;
 }
 
 @media(max-width:998px) {
@@ -330,10 +332,10 @@
         display: none;
     }
     .logo {
-        width:160px;
+        width:120px;
         position: absolute;
-        top: -32px;
-        left: 29%;
+        top: -12px;
+        left: 2%;
     }
     .topSlider {
         position: relative;
@@ -560,5 +562,164 @@
     .testimonial{
         margin-bottom:50px;
     }
-   
+    .adBtn{
+        border: 1px solid black;
+        border-color: #83186c;
+        margin: auto;
+        background-color: white;
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+        left: 20%;
+        color: #83186c;
+        transition: 600ms ease;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+   .adBtn:hover{
+       background-color: #83186c;
+       border: white;
+       color: white;
+   }
+
+   .adBtnInquire{
+       
+    border: 1px solid black;
+    border-color: #83186c;
+    margin: auto;
+    background-color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    left: 34%;
+    color: #83186c;
+    transition: 600ms ease;
+    border-radius: 5px;
+    margin-bottom: 30px;
+   }
+
+   .adBtnInquire:hover{
+    background-color: #83186c;
+    border: white;
+    color: white;
 }
+.ListDiv{
+    position: relative;
+    top: 80px;
+    margin-bottom: 50px;
+    height:700px;
+    background-color:#fcf1f9e8 ;
+
+}
+
+.boxes{
+    height:10px;
+}
+
+.listSubHead{
+    font-size: 18px;
+    text-align: center;
+    color: #463141;
+}
+
+.listSubHead1{
+    font-size: 20px;
+    position: relative;
+    left:10%;
+    display: inline-block;
+    top: 40px;
+}
+.listBox{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    left:4%;
+}
+
+.listBoxLeft{
+    margin:0px 10px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 40%;
+    border-right: 1px solid;
+}
+
+.listBoxRight{
+    margin:0px 10px;
+    /* border: 1px solid black; */
+    width: 40%;
+}
+
+.dicount{
+    display: inline-block;
+    position:relative;
+    left: 20%;
+    color: rgb(68, 167, 22);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.real{
+    display: inline-block;
+    position:relative;
+    left:23%;
+    color: rgb(209, 45, 39);
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration:line-through;
+}
+
+.frame{
+    position:relative;
+    left: 56%;
+    margin-top:-15px;
+    color: grey;
+
+}
+
+.dicountF{
+    display: inline-block;
+    position:relative;
+    left: 49.5%;
+    color: rgb(68, 167, 22);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.realF{
+    display: inline-block;
+    position:relative;
+    left:56%;
+    color: rgb(209, 45, 39);
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration:line-through;
+}
+
+.frameF{
+    position:relative;
+    left: 59%;
+    margin-top:-15px;
+    color: grey;
+
+}
+
+
+
+.boxFram{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+    margin: 10px 0px;
+    height: 150px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.boxFram3{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    /* left: -10px; */
+}
+
+}
+
