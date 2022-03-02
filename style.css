@@ -687,7 +687,7 @@ body {
 }
 
 .realF{
-    display: inline-block;
+    display:none;
     position:relative;
     left:56%;
     color: rgb(209, 45, 39);
