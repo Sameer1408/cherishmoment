@@ -723,3 +723,84 @@ body {
 
 }
 
+.glow1{
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius:20px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+@keyframes glowing {
+    0% {
+      background-color: #ff6905ad;
+      box-shadow: 0 0 3px #ec6a1473;
+    }
+    50% {
+      background-color: #dd69c456;
+      box-shadow: 0 0 10px #dd69c42d;
+    }
+    100% {
+      background-color: #ec6a1473;
+      box-shadow: 0 0 3px #ec6a1473;
+    }
+  }
+
+  @keyframes glowing1 {
+    0% {
+      background-color: #ff6905f3;
+      box-shadow: 0 0 3px #ec6a14e8;
+    }
+    50% {
+      background-color: #e205b2e1;
+      box-shadow: 0 0 10px #dd69c42d;
+    }
+    100% {
+      background-color: #ec6a14e8;
+      box-shadow: 0 0 13px #ec6a14e8;
+    }
+  }
+
+  .glow{
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius:20px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+  .glow1 {
+    animation: glowing 1300ms infinite;
+  }
+
+  .glow{
+    animation: glowing1 1300ms infinite; 
+  }
+
+
+
+  .carouselBtn{
+      position:relative;
+      z-index:100;
+      bottom:171px;
+      margin: auto;
+      left:35%
+      
+  }
