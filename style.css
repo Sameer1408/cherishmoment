@@ -335,7 +335,7 @@ body {
         width:120px;
         position: absolute;
         top: -12px;
-        left: 2%;
+        left: 3%;
     }
     .topSlider {
         position: relative;
@@ -799,8 +799,8 @@ body {
   .carouselBtn{
       position:relative;
       z-index:100;
-      bottom:171px;
+      bottom:221px;
       margin: auto;
-      left:35%
+      left:55%
       
   }
