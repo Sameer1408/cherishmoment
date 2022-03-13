@@ -41,6 +41,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin-top: 50px;
 }
 
 .welcomeHeading {
@@ -101,7 +102,7 @@ body {
 .carousel2Image {
     width: 200px;
     border-radius: 20px;
-    border: 10px solid white;
+    /* border: 10px solid rgba(255, 255, 255, 0); */
 }
 
 .testimonialDiv {
@@ -395,9 +396,9 @@ body {
         color: grey;
     }
     .carousel-cell {
-        width: 40%;
+        width: 50%;
         height: 200px;
-        margin: 0px 50px;
+        margin: 0px 0px;
         background: rgba(136, 204, 168, 0);
         border-radius: 5px;
         counter-increment: carousel-cell;
@@ -412,6 +413,7 @@ body {
         background-color: white;
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.671);
         margin: 0px 30px;
+        
     }
     .testimonialHeading {
         text-align: center;
@@ -781,6 +783,7 @@ body {
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
+    
 }
 
 
@@ -804,3 +807,11 @@ body {
       left:55%
       
   }
+
+
+  .review{
+      height: 130px;
+      padding:px;
+      overflow-y: hidden;
+  }
+

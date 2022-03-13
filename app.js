@@ -96,3 +96,59 @@ window.onload = function() {
 // whatsappicon.addEventListener('mouseover', () => {
 //     setInterval(chatDivVisibility, 2000)
 // })
+
+
+var c = document.getElementById('c')
+var review1 = document.getElementById('review1');
+var readmore1 = document.getElementById('readmore1');
+readmore1.addEventListener('click',()=>{
+  if(readmore1.innerHTML == "read more"){
+    review1.style.height="300px"  
+    review1.style.position="relative"
+    review1.style.marginTop="-140px"
+    review1.style.backgroundColor = "white"
+    readmore1.innerText="read less"}
+    else{
+        review1.style.height="130px"  
+        readmore1.innerText="read more"
+        review1.style.marginTop="0px"
+    }
+
+})
+
+
+
+var review2 = document.getElementById('review2');
+var readmore2 = document.getElementById('readmore2');
+readmore2.addEventListener('click',()=>{
+  if(readmore2.innerHTML == "read more"){
+    review2.style.height="300px"  
+    review2.style.position="relative"
+    review2.style.marginTop="-160px"
+    review2.style.backgroundColor = "white"
+    readmore2.innerText="read less"}
+    else{
+        review2.style.height="130px"  
+        readmore2.innerText="read more"
+        review2.style.marginTop="0px"
+    }
+
+})
+
+
+var review3 = document.getElementById('review3');
+var readmore3 = document.getElementById('readmore3');
+readmore3.addEventListener('click',()=>{
+  if(readmore3.innerHTML == "read more"){
+    review3.style.height="300px"  
+    review3.style.position="relative"
+    review3.style.marginTop="-50px"
+    review3.style.backgroundColor = "white"
+    readmore3.innerText="read less"}
+    else{
+        review3.style.height="130px"  
+        readmore3.innerText="read more"
+        review3.style.marginTop="0px"
+    }
+
+})
